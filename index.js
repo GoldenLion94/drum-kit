@@ -2,7 +2,7 @@ let numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 for (i = 0; i < numberOfDrumButtons; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-    let buttontextContent = this.TextContent;
+    let buttontextContent = this.textContent;
 
     switch (buttonTextContent) {
       case "w":
